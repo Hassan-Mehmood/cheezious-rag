@@ -1,6 +1,5 @@
-def main():
-    print("Hello from cheezious-rag!")
-
+# from src import app
+import uvicorn
 
 if __name__ == "__main__":
-    main()
+    uvicorn.run("src:app", host="localhost", port=8000, reload=True)
