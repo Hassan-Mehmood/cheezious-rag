@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from src.rag import router as rag_router
 
 from src.logger import logger
 
 app = FastAPI()
+app.include_router(rag_router)
 
 app.add_middleware(
     CORSMiddleware,
