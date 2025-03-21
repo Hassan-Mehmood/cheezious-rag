@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src.logger import logger
+from src.rag.router import router as rag_router
 
 app = FastAPI()
+app.include_router(rag_router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -13,12 +14,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.get("/")
 async def root():
-    logger.info("TESTING")
     return {"message": "Hello World"}
 
 @app.get("/health")
 async def health():
-    logger.info('HEALTH')
-    return {'status': 'ok'}
+    return {"status": "ok"}
