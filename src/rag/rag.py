@@ -9,29 +9,24 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.prompts import ChatPromptTemplate
 
 import os 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Rag:
     def __init__(self):
         try:
-            # Initialize Pinecone
-            self.pinecone = Pinecone(
-                pinecone_api_key=os.getenv('PINECONE_API_KEY'), 
-                index_name=os.getenv('PINECONE_INDEX_NAME')
-            )
-            
-
             self.llm = init_chat_model(model_name="gpt-4o", model_provider="openai")
             
             # Initialize embeddings
-            self.embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
+            self.embeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=os.getenv('OPENAI_API_KEY'))
             
             # Initialize vector store
             self.vector_store = PineconeVectorStore(
                 embedding=self.embeddings,
-                index=self.pinecone._index
+                index=os.getenv('PINECONE_INDEX_NAME'),
+                pinecone_api_key=os.getenv('PINECONE_API_KEY')
             )
-            
-            print("RAG system initialized with gpt-4o and text-embedding-3-large")
             
         except Exception as e:
             print(f"Failed to initialize RAG system: {str(e)}") 

@@ -11,5 +11,6 @@ dependencies = [
     "langchain-pinecone>=0.2.3",
     "langchain-text-splitters>=0.3.7",
     "langchain[openai]>=0.3.21",
+    "python-multipart>=0.0.20",
     "uvicorn>=0.34.0",
 ]

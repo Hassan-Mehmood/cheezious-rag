@@ -1,0 +1,314 @@
+{
+  "menu": [
+    {
+      "category": "Bhook Ka The End!",
+      "items": [
+        {
+          "name": "Bazooka",
+          "description": "Tender, spicy chicken strips paired with mayo, pickles, jalapeños, and signature...",
+          "price": "Rs. 630"
+        }
+      ]
+    },
+    {
+      "category": "Starters",
+      "items": [
+        {
+          "name": "Cheezy Sticks",
+          "description": "Freshly baked bread filled with the yummiest Cheese blend to satisfy your cravin...",
+          "price": "Rs. 630"
+        },
+        {
+          "name": "Oven Baked Wings",
+          "description": "Fresh Oven baked wings served with Dip Sauce.",
+          "price": "Rs. 600"
+        },
+        {
+          "name": "Flaming Wings",
+          "description": "Fresh oven baked wings tossed in hot Peri Peri Sauce and served with Dip Sauce....",
+          "price": "Rs. 650"
+        },
+        {
+          "name": "Calzone Chunks",
+          "description": "4 pcs Stuffed Calzone Chunks served with Sauce & Fries.",
+          "price": "Rs. 1,150"
+        },
+        {
+          "name": "Arabic Rolls",
+          "description": "4 pcs Arabic Rolls stuffed with the yummiest mix served with sauce.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Behari Rolls",
+          "description": "4 pcs Behari Rolls stuffed with the yummiest mix served with sauce.",
+          "price": "Rs. 690"
+        }
+      ]
+    },
+    {
+      "category": "Somewhat Local",
+      "items": [
+        {
+          "name": "Chicken Tikka",
+          "description": "Tender chunks of Marinated Grilled Chicken with Savory Onion.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Chicken Fajita",
+          "description": "An authentic taste of fajita marinated Chicken, Onion and Bell Peppers.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Chicken Lover",
+          "description": "Extreme quantity of Chicken and Onion with rich Mozzarella Cheese.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Chicken Tandoori",
+          "description": "Our traditionally developed Tandoori Chicken with Onion, Olives, Jalapeno and To...",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Hot n Spicy",
+          "description": "Hot and Spicy Chicken Onion with Jalapeno.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Vegetable Pizza",
+          "description": "Vegetables with Pizza Sauce and Cheese.",
+          "price": "Rs. 690"
+        }
+      ]
+    },
+    {
+      "category": "Somewhat Sooper",
+      "items": [
+        {
+          "name": "Euro",
+          "description": "A delightful combination of specially Marinated Smoked Chicken with Bell Pepper,...",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Chicken Supreme",
+          "description": "A combination of 3 Flavors of Chicken, Black Olives, Mushrooms, Bell Pepper and ...",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Black Pepper Tikk...",
+          "description": "A Blend of Marinated Black Pepper Chicken, Onion and Bell Pepper.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Chicken Mushroom",
+          "description": "Tender Chunks of Marinated Grilled Chicken Tikka, Lots of Mushrooms, Onion and T...",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Sausage Pizza",
+          "description": "Chicken Sausages, Pizza Sauce, and Cheese.",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Cheese Lover Pizz...",
+          "description": "Yummiest Blend of Cheese and Pizza Sauce",
+          "price": "Rs. 690"
+        },
+        {
+          "name": "Chicken Pepperoni...",
+          "description": "Chicken Pepperoni, Pizza Sauce and Cheese.",
+          "price": "Rs. 690"
+        }
+      ]
+    },
+    {
+      "category": "Cheezy Treats",
+      "items": [
+        {
+          "name": "Cheezious Special...",
+          "description": "Delicious Special Chicken with Black Olives, Sausages and Bell Pepper.",
+          "price": "Rs. 1,550"
+        },
+        {
+          "name": "Behari Kebab",
+          "description": "Enjoy Special Chicken Behari Kabab, Grilled Chicken with Onion Jalapenos and Gin...",
+          "price": "Rs. 1,550"
+        },
+        {
+          "name": "Chicken Extreme",
+          "description": "Combination of 3 Flavors of Chicken with Onion Bell Pepper, Green Olives, Mushro...",
+          "price": "Rs. 1,550"
+        }
+      ]
+    },
+    {
+      "category": "Pizza Deals",
+      "items": [
+        {
+          "name": "Small Pizza Deal",
+          "description": "Any Flavor from Local Love Or Over the Sea Flavor Category & 1 Soft Drink.",
+          "price": "Rs. 750"
+        },
+        {
+          "name": "Regular Pizza Dea...",
+          "description": "1 Regular Pizza and 2 Regular Drinks.",
+          "price": "Rs. 1,450"
+        },
+        {
+          "name": "Large Pizza Deal",
+          "description": "Any Flavor from Local Love or Over the Sea Flavor Category & 1 Liter Drink.",
+          "price": "Rs. 1,990"
+        }
+      ]
+    },
+    {
+      "category": "Sandwiches & Platters",
+      "items": [
+        {
+          "name": "Special Roasted ...",
+          "description": "4 pcs Behari Rolls, 6 pcs Wings Served with Fries & Sauce.",
+          "price": "Rs. 1,200"
+        },
+        {
+          "name": "Mexican Sandwich",
+          "description": "Mozzarella Dipped Chicken Topped with Garlic Sauce and Tomatoes Served in Baked ...",
+          "price": "Rs. 920"
+        },
+        {
+          "name": "Pizza Stacker",
+          "description": "A unique blend of Delicious Sauce, Crispy Chicken and Pizza Crust.",
+          "price": "Rs. 920"
+        },
+        {
+          "name": "Euro Sandwich",
+          "description": "Mozzarella Dipped Black Pepper Chicken topped with Garlic Sauce, Pineapples and ...",
+          "price": "Rs. 920"
+        },
+        {
+          "name": "Classic Roll Plat...",
+          "description": "4 pcs Behari Rolls, 4 pcs Arabic Rolls served with Fries & Sauce.",
+          "price": "Rs. 1,200"
+        }
+      ]
+    },
+    {
+      "category": "Special Pizza",
+      "items": [
+        {
+          "name": "Crown Crust",
+          "description": "Scrumptious Pizza with a yummy blend of Grilled Chicken, Olives, Onion, Capsicum...",
+          "price": "Rs. 1,550"
+        },
+        {
+          "name": "Stuff Crust Pizza...",
+          "description": "Special Chicken, Green Olives, Mushrooms, with the Crust filled with Cheese Or K...",
+          "price": "Rs. 1,600"
+        }
+      ]
+    },
+    {
+      "category": "Somewhat Amazing",
+      "items": [
+        {
+          "name": "Somewhat Amazing ...",
+          "description": "2 Bazinga, Regular Fries, 2 Regular Drinks",
+          "price": "Rs. 1,250"
+        },
+        {
+          "name": "Somewhat Amazing ...",
+          "description": "2 Bazinga Burger, 2 pcs Chicken, Large Fries, 2 Regular Drink",
+          "price": "Rs. 1,750"
+        },
+        {
+          "name": "Somewhat Amazing ...",
+          "description": "3 Bazinga Burger, Large Fries, 1 Liter Drink",
+          "price": "Rs. 1,890"
+        },
+        {
+          "name": "Somewhat Amazing ...",
+          "description": "3 Bazinga Burger, 3 pcs Chicken, 1 Liter Drink",
+          "price": "Rs. 2,150"
+        }
+      ]
+    },
+    {
+      "category": "Pastas",
+      "items": [
+        {
+          "name": "Fettuccine Alfred...",
+          "description": "Pasta made in the yummiest White Sauce With Chicken Chunks Topped with Cheese....",
+          "price": "Rs. 1,050"
+        },
+        {
+          "name": "Crunchy Chicken ...",
+          "description": "Yummiest Macaroni Pasta in White Sauce topped with Crispy Chicken and Cheese.",
+          "price": "Rs. 950"
+        }
+      ]
+    },
+    {
+      "category": "Burgerz",
+      "items": [
+        {
+          "name": "Reggy Burger",
+          "description": "Perfectly Fried Chicken Patty with Fresh Lettuce and Sauce in a Sesame Seed Bun....",
+          "price": "Rs. 390"
+        },
+        {
+          "name": "Bazinga Burger",
+          "description": "Crispy fried to perfection boneless thigh with signature sauce and lettuce held ...",
+          "price": "Rs. 560"
+        },
+        {
+          "name": "Bazooka",
+          "description": "Tender, spicy chicken strips paired with mayo, pickles, jalapeños, and signature...",
+          "price": "Rs. 630"
+        }
+      ]
+    },
+    {
+      "category": "Side Orders",
+      "items": [
+        {
+          "name": "Fries",
+          "description": ".",
+          "price": "Rs. 220"
+        },
+        {
+          "name": "Nuggets",
+          "description": "5 Pcs",
+          "price": "Rs. 450"
+        },
+        {
+          "name": "Chicken Piece",
+          "description": "Crispy Chicken",
+          "price": "Rs. 300"
+        }
+      ]
+    },
+    {
+      "category": "Addons",
+      "items": [
+        {
+          "name": "Juice",
+          "description": ".",
+          "price": "Rs. 60"
+        },
+        {
+          "name": "Mayo Dip",
+          "description": ".",
+          "price": "Rs. 80"
+        },
+        {
+          "name": "Water Small",
+          "description": ".",
+          "price": "Rs. 60"
+        },
+        {
+          "name": "Soft Drink",
+          "description": "..",
+          "price": "Rs. 100"
+        }
+      ]
+    }
+  ]
+}

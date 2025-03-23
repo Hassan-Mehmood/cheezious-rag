@@ -1,4 +1,4 @@
-from langchain.document_loaders import PyMuPDFLoader, WebBaseLoader, TextLoader
+from langchain_community.document_loaders import PyMuPDFLoader, WebBaseLoader, TextLoader
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from src.rag_router import router as rag_router
@@ -31,7 +31,7 @@ async def root():
 async def health():
     return {"status": "ok"}
 
-@app.post("/add_document/")
+@app.post("/add-document/")
 async def add_document(file: UploadFile = File(None), url: str = Form(None)):
     """
     Endpoint to add documents in Pinecone vector database.
